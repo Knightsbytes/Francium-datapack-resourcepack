@@ -1,0 +1,1 @@
+summon wind_charge ~ ~ ~ {Motion:[0f,10f,0f]}

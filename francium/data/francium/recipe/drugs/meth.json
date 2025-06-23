@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "francium:drugs",
+  "category": "misc",
+  "pattern": [
+    "#B#",
+    "BCB",
+    "CA#"
+  ],
+  "key": {
+    "#": "quartz",
+    "A": "bowl",
+    "B": "redstone",
+    "C": "sugar"
+  },
+  "result": {
+    "id": "minecraft:music_disc_relic",
+    "components": {
+      "minecraft:max_stack_size": 16,
+      "!minecraft:jukebox_playable": {},
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "animation": "drink",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:nausea",
+                "amplifier": 1,
+                "duration": 600,
+                "show_particles": true
+              },
+              {
+                "id": "minecraft:haste",
+                "amplifier": 1,
+                "duration": 600
+              }
+            ]
+          }
+        ]
+      },
+      "!minecraft:lore": {},
+      "minecraft:custom_name": [
+        {
+          "text": "Meth",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "minecraft:sugar"
+    },
+    "count": 16
+  }
+}

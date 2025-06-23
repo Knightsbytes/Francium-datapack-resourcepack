@@ -1,0 +1,17 @@
+{
+    "type": "multi_action",
+    "title": [{"color":"gold","text":"Menu"}],
+    "actions": [
+        {
+            "label": [{"color": "red","text": "C"},{"color": "gold","text": "o"},{"color": "yellow","text": "l"},{"color": "green","text": "o"},{"color": "blue","text": "r"},{"color": "dark_blue","text": " C"}, {"color": "dark_purple","text": "h"},{"color": "red","text": "a"},{"color": "gold","text": "n"},{"color": "yellow","text": "g"},{"color": "green","text": "e"},{"color": "blue","text": "r"}],
+            "action": {
+                "type": "show_dialog",
+                "dialog":"francium:namechanger"
+            },
+            "tooltip": [{"color": "white","text":"Opens the name color menu"}]
+        },
+        {
+            "label": {"text": "QUIT","color": "dark_red"}
+        }
+    ]
+}

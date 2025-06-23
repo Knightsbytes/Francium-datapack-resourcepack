@@ -1,0 +1,146 @@
+{
+    "type": "multi_action",
+    "title": [{"color":"gold","text":"Menu"}],
+    "actions": [
+        {
+            "label": {"color": "white","text": "white"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 1"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "white","text": "WHITE"}]
+        },
+        {
+            "label": {"color": "aqua","text": "aqua"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 2"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "aqua","text": "AQUA"}]
+        },
+        {
+            "label": {"color": "black","text": "black"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 3"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "black","text": "BLACK"}]
+        },
+        {
+            "label": {"color": "blue","text": "blue"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 4"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "blue","text": "BLUE"}]
+        },
+        {
+            "label": {"color": "dark_aqua","text": "dark_aqua"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 5"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "dark_aqua","text": "DARK_AQUA"}]
+        },
+        {
+            "label": {"color": "dark_blue","text": "dark_blue"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 6"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "dark_blue","text": "DARK_BLUE"}]
+        },
+        {
+            "label": {"color": "dark_gray","text": "dark_gray"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 7"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "dark_gray","text": "DARK_GRAY"}]
+        },
+        {
+            "label": {"color": "dark_green","text": "dark_green"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 8"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "dark_green","text": "DARK_GREEN"}]
+        },
+        {
+            "label": {"color": "dark_purple","text": "dark_purple"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 9"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "dark_purple","text": "DARK_PURPLE"}]
+        },
+        {
+            "label": {"color": "dark_red","text": "dark_red"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 10"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "dark_red","text": "DARK_RED"}]
+        },
+        {
+            "label": {"color": "gold","text": "gold"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 11"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "gold","text": "GOLD"}]
+        },
+        {
+            "label": {"color": "gray","text": "gray"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 12"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "gray","text": "GRAY"}]
+        },
+        {
+            "label": {"color": "green","text": "green"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 13"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "green","text": "GREEN"}]
+        },
+        {
+            "label": {"color": "red","text": "red"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 14"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "red","text": "RED"}]
+        },
+        {
+            "label": {"color": "yellow","text": "yellow"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 15"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "yellow","text": "YELLOW"}]
+        },
+        {
+            "label": {"color": "light_purple","text": "light_purple"},
+            "action": {
+                "type": "run_command",
+                "command": "/trigger menu.namecolor set 16"
+            },
+            "tooltip": [{"color": "white","text":"Sets your name color to "},{"color": "light_purple","text": "LIGHT_PURPLE"}]
+        },
+        {
+            "label":"Back",
+            "action":{ 
+                "type":"show_dialog",
+                "dialog":"francium:main"
+            },
+            "tooltip": "Takes you back to the main menu"
+        },
+        {
+            "label": {"text":"CLOSE","color":"dark_red"},
+            "tooltip": "Closes this menu"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "type": "multi_action",
+    "title": [{"color":"green","text":"Boris' menu"}],
+    "actions": [
+        {
+            "label": [{"text": "Locate Stronghold"}],
+            "action": {
+                "type": "run_command",
+                "command":"/trigger menu.boris set 2"
+            },
+            "tooltip": [{"color": "white","text":"Tells you where the nearest stronghold is"}]
+        },
+        {
+            "label": {"text": "QUIT","color": "dark_red"}
+        }
+    ]
+}

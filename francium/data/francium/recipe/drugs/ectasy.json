@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "francium:drugs",
+  "category": "misc",
+  "pattern": [
+    "CBC",
+    "B#B",
+    " A "
+  ],
+  "key": {
+    "#": "minecraft:glistering_melon_slice",
+    "A": "glass_bottle",
+    "B": "minecraft:glowstone_dust",
+    "C": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minecraft:music_disc_relic",
+    "components": {
+      "minecraft:max_stack_size": 4,
+      "!minecraft:jukebox_playable": {},
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "animation": "drink",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:nausea",
+                "amplifier": 1,
+                "duration": 200,
+                "show_particles": true
+              },
+              {
+                "id": "minecraft:darkness",
+                "amplifier": 1,
+                "duration": 1200,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:blindness",
+                "amplifier": 1,
+                "duration": 1200,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 3,
+                "duration": 900,
+                "show_particles":false
+              }
+            ]
+          }
+        ]
+      },
+      "!minecraft:lore": {},
+      "minecraft:custom_name": [
+        {
+          "text": "Ectasy",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "minecraft:potion",
+      "minecraft:potion_contents": {
+        "custom_color": 15760096
+      }
+    },
+    "count": 16
+  }
+}
